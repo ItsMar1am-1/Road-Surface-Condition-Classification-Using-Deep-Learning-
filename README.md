@@ -24,7 +24,7 @@ For this project:
 - Minor Damage + Major Damage → Damaged
 - Manhole and Speed Breaker were excluded
 
-Only the original images were used.
+to reach the dataset follow this link : https://data.mendeley.com/datasets/z3nx8n396g/3
 
 ## Models
 ### Custom CNN
