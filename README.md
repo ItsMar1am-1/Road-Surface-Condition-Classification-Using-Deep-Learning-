@@ -50,7 +50,6 @@ The models are also evaluated under:
 - Strong blur
 
 ## Requirements
-Python, PyTorch, torchvision, NumPy, scikit-learn, matplotlib, Pillow.
-
+torch, torchvision, numpy, pandas, matplotlib, scikit-learn, Pillow, notebook, ipykernel
 ## Reproducibility
 A fixed random seed of 42 is used during the experiments.
