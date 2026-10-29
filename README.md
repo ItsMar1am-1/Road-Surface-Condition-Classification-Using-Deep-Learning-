@@ -28,7 +28,7 @@ to reach the original dataset follow this link : https://data.mendeley.com/datas
 
 ## Models
 ### Custom CNN
-A four-layer convolutional neural network is used as the baseline model.
+A four layers convolutional neural network is used as the baseline model.
 
 ### MobileNetV2
 A pretrained MobileNetV2 model is used with transfer learning for binary classification.
