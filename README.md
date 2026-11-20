@@ -29,8 +29,8 @@ The original BDRoad-Sense dataset contains five classes:
 
 For this project:
 
-- Normal Road → Normal
-- Minor Damage + Major Damage → Damaged
+- Normal Road = Normal
+- Minor Damage + Major Damage = Damaged
 - Manhole and Speed Breaker were excluded
 
 The original BDRoad-Sense dataset can be accessed at:
