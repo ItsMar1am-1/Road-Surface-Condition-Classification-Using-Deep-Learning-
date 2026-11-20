@@ -77,14 +77,19 @@ The models are also evaluated under:
 - Mild blur
 - Strong blur
 
-## Reproducibility
+## How to Reproduce the Results?
 
-A random seed of 42 is used during the experiments.
-
-## Requirements
-
-Install the required packages using:
+1. Download the BDRoad-Sense dataset from the link above.
+2. Prepare the dataset using the same binary class mapping:
+   - Normal Road = Normal
+   - Minor Damage + Major Damage = Damaged
+   - Exclude Manhole and Speed Breaker
+3. Use `road_dataset_splits.csv` to preserve the same splits.
+4. Update the dataset path inside each notebook if needed.
+5. Install the required packages using:
 
 ```bash
 pip install -r requirements.txt
 ```
+
+6. Run each notebook.
