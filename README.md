@@ -41,11 +41,11 @@ https://data.mendeley.com/datasets/z3nx8n396g/3
 
 ### Custom CNN
 
-A four-layer convolutional neural network is used as the baseline model.
+Four layers of convolutional neural network is used as the baseline model.
 
 ### MobileNetV2
 
-A pretrained MobileNetV2 model is used with ImageNet weights and transfer learning for binary classification.
+A pretrained MobileNetV2 model is used with ImageNet weights and transfer learning.
 
 ### Adapted ResNet50
 
@@ -53,7 +53,7 @@ The ResNet50 methodology from Li et al. was adapted and evaluated using the BDRo
 
 ### Adapted RoadNet
 
-The RoadNet methodology from Alqethami et al. was adapted and evaluated using the BDRoad-Sense dataset. Class-weighted Cross Entropy Loss was used to reduce the effect of class imbalance.
+The RoadNet methodology from Alqethami et al. was also adapted and evaluated using the BDRoad-Sense dataset and weighted Cross Entropy Loss was used to reduce the effect of class imbalance.
 
 ## Evaluation Metrics
 
@@ -69,7 +69,7 @@ The Damaged class is treated as the positive class.
 
 ## Robustness Evaluation
 
-The primary models are also evaluated under:
+The models are also evaluated under:
 
 - Clean images
 - Low brightness
@@ -79,15 +79,7 @@ The primary models are also evaluated under:
 
 ## Reproducibility
 
-A fixed random seed of 42 is used during the experiments.
-
-The repository includes:
-
-- Model implementation notebooks
-- Dataset split information
-- Architecture diagram
-- Dependency list
-- Code required to reproduce the reported experiments
+A random seed of 42 is used during the experiments.
 
 ## Requirements
 
