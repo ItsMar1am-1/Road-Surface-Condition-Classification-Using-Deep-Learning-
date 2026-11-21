@@ -17,6 +17,10 @@ In addition, two published methodologies were adapted and evaluated using the sa
 - ResNet50 based on Li et al. [1]
 - RoadNet based on Alqethami et al. [4]
 
+## Project Architecture
+
+![Project Architecture](FinalArchitecture.png)
+
 ## Dataset
 
 The original BDRoad-Sense dataset contains five classes:
